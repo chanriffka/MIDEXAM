@@ -9,9 +9,9 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- Favicons -->
+    {{--  <!-- Favicons -->
     <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">--}}
 
     <!-- Google Fonts -->
     <link
@@ -44,12 +44,12 @@
                 <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
                 </li>
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a>
                 </li>
                 <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                        <span>Portfolio</span></a></li>
-                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
-                </li>
+                        <span>My Journey</span></a></li>
+                {{--  <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
+                </li>--}}
                 <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
                 </li>
             </ul>
@@ -60,13 +60,12 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1>Saoucerly Cherry</h1>
-            <p>I'm <span class="typed" data-typed-items="Kitty, Meow, Meow, Meow Meow"></span></p>
+            <h1>Chantikka Riffka</h1>
+            <p>I'm <span class="typed" data-typed-items="Data Analyst, Business Woman, Coding Enthusiast"></span></p>
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
         </div>
@@ -87,7 +86,7 @@
 
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="https://i.pinimg.com/736x/00/f7/9f/00f79fd2c8063e252593342d58d5d725.jpg"
+                        <img src="https://favim.com/pd/p/orig/2019/03/27/girl-korean-faceless-Favim.com-7032803.jpg"
                             class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content">
@@ -139,7 +138,7 @@
         </section><!-- End About Section -->
 
         <!-- ======= Facts Section ======= -->
-        <section id="facts" class="facts">
+       {{--   <section id="facts" class="facts">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -190,7 +189,7 @@
                 </div>
 
             </div>
-        </section><!-- End Facts Section -->
+        </section><!-- End Facts Section -->--}}
 
         <!-- ======= Skills Section ======= -->
         <section id="skills" class="skills section-bg">
@@ -198,9 +197,7 @@
 
                 <div class="section-title">
                     <h2>Skills</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>It takes great pains to benefit. His needs result from something that actually drives him away. Let them be what they want. Anyone whom anyone desires. And no one who hinders receives the others. Because he should flee in this office of convenience, which is heres.</p>
                 </div>
 
                 <div class="row skills-content">
@@ -208,25 +205,25 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill">HTML <i class="val">100%</i></span>
+                            <span class="skill">HTML <i class="val">80%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="progress">
-                            <span class="skill">CSS <i class="val">90%</i></span>
+                            <span class="skill">CSS <i class="val">85%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="progress">
-                            <span class="skill">JavaScript <i class="val">75%</i></span>
+                            <span class="skill">JavaScript <i class="val">70%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -244,17 +241,17 @@
                         </div>
 
                         <div class="progress">
-                            <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                            <span class="skill">GoLang <i class="val">70%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="progress">
-                            <span class="skill">Photoshop <i class="val">55%</i></span>
+                            <span class="skill">Photoshop <i class="val">50%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -267,46 +264,45 @@
         </section><!-- End Skills Section -->
 
         <!-- ======= Resume Section ======= -->
-        <section id="resume" class="resume">
+        {{--  <section id="resume" class="resume">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
                     <h2>Resume</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>It takes great pains to benefit. His needs result from something that actually drives him away. Let them be what they want. Anyone whom anyone desires. 
+                        And no one who hinders receives the others. Because he should flee in this office of convenience, which is heres.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-6">
                         <h3 class="resume-title">Sumary</h3>
                         <div class="resume-item pb-0">
-                            <h4>Brandon Johnson</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
+                            <h4>Chantikka Riffka</h4>
+                            <p><em>Innovative and deadline-driven Programmer
                                     and developing user-centered digital/print marketing material from initial concept
                                     to final, polished deliverable.</em></p>
                             <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
+                                <li>Malang, East Java, Indonesia</li>
+                                <li>(+62) 812 4693 4487 </li>
+                                <li>chantikkariffka@gmail.com</li>
                             </ul>
                         </div>
 
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            <h4>Computer Network</h4>
+                            <h5>2018 - 2020</h5>
+                            <p><em>SMK TELKOM MALANG</em></p>
+                            <p>Those who leave will be forgiven. And if any one should work at the time, he should be just. 
+                                But those pleasures which mark the sands of the port of Nerada as the most worthy of the gentled</p>
                         </div>
                         <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-                                ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-                                consequatur neque etlon sader mart dila</p>
+                            <h4>Undergraduate &amp; Computer Science</h4>
+                            <h5>2021 - 2025</h5>
+                            <p><em>Bina Nusantara University</em></p>
+                            <p>Because we are blinded to follow. To be rejected and just what to reject and who is His or
+                                by reason of which the pleasures of the things of life are more severe than the pleasure of their troubles
+                                it does not result in etlon sader mart dila</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -343,17 +339,15 @@
                 </div>
 
             </div>
-        </section><!-- End Resume Section -->
+        </section><!-- End Resume Section --> --}}
 
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>My Journey</h2>
+                    <p></p>
                 </div>
 
                 <div class="row">
@@ -431,7 +425,7 @@
         </section><!-- End Portfolio Section -->
 
         <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
+        {{--  <section id="services" class="services">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -548,10 +542,10 @@
                 </div>
 
             </div>
-        </section><!-- End Services Section -->
+        </section><!-- End Services Section -->--}}
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        {{--  <section id="testimonials" class="testimonials section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -575,8 +569,8 @@
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
-                        </div><!-- End testimonial item -->
-
+                        </div><!-- End testimonial item -->--}}
+                        {{--  
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
@@ -639,7 +633,7 @@
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div><!-- End testimonial item -->--}}
 
                     </div>
                     <div class="swiper-pagination"></div>
@@ -663,26 +657,26 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Malang, East Java, Indonesia</p>
                             </div>
-
+                                
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>chantikkariffka@gmail.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>+62 812 4693 4487</p>
                             </div>
 
                         </div>
 
                     </div>
 
-                    <div class="col-lg-8 mt-5 mt-lg-0">
+                    {{-- <div class="col-lg-8 mt-5 mt-lg-0">
 
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="row">
@@ -710,7 +704,7 @@
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
 
-                    </div>
+                    </div> --}}
 
                 </div>
 
@@ -722,9 +716,8 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-            <h3>Brandon Johnson</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-                placeat.</p>
+            <h3></h3>
+            <p></p>
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
