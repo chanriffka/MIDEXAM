@@ -29,6 +29,8 @@ Route::group(['prefix' => '/admin'], function () {
     Route::post('/portfolios/store', [PortfolioController::class, 'store'])->name('portfolios.store');
     Route::post('/portfolios/{id}/update', [PortfolioController::class, 'update'])->name('portfolios.update');
     Route::post('/portfolios/{id}/delete', [PortfolioController::class, 'destroy'])->name('portfolios.destroy');
+    Route::get('test',[Test::class,'index']);
+    Route::get('test/category',[Test::class,'category']);
 });
 Auth::routes([
     // 'register' => false,
