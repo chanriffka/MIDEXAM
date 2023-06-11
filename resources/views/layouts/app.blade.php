@@ -15,6 +15,9 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+    {{-- datatables css --}}
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
 </head>
 <body>
     <div id="app">
@@ -60,7 +63,7 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-
+                                    
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
@@ -76,5 +79,11 @@
             @yield('content')
         </main>
     </div>
+    {{-- datatables js --}}
+    <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"> </script>
+
+    <script>
+        let table = new DataTable('.datatables');
+    </script>
 </body>
 </html>
